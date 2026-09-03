@@ -1,0 +1,43 @@
+# .NET / Visual Studio build output
+**/bin/
+**/obj/
+.vs/
+TestResults/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Repository-local SDK and package caches
+.dotnet-home/
+.nuget/
+.appdata/
+
+# Packaged releases
+artifacts/
+
+# Runtime data (only the repository-root data directory; source contains Data/)
+/data/
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+*.log
+
+# Local secrets and signing material
+.env
+.env.*
+!.env.example
+*.pfx
+*.p12
+*.key
+*.pem
+*.snk
+
+# IDE and operating-system metadata
+.idea/
+.fleet/
+.DS_Store
+Thumbs.db
+Desktop.ini
